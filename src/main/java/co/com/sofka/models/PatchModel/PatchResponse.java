@@ -1,4 +1,4 @@
-package co.com.sofka.models.postModel;
+package co.com.sofka.models.PatchModel;
 
 public class PatchResponse {
 	private String name;
