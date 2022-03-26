@@ -32,7 +32,7 @@ public class PatchDeleteCustomerStep {
     private DatosModelRandom random;
 
     private ReadFileJson fileJson;
-    private static final Logger LOGGER = Logger.getLogger(GetPostCustomerStep.class);
+    private static final Logger LOGGER = Logger.getLogger(PatchDeleteCustomerStep.class);
 
     @Given("el usuario esta en la plataforma y desea actualizar datos")
     public void elUsuarioEstaEnLaPlataformaYDeseaActualizarDatos() {

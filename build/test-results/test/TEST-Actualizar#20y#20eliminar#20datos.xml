@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Actualizar y eliminar datos" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-26T00:56:30" hostname="LAPTOP-0HI916MJ" time="7.419">
+<testsuite name="Actualizar y eliminar datos" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-26T04:11:27" hostname="LAPTOP-0HI916MJ" time="11.145">
   <properties/>
-  <testcase name="Actualizar Datos" classname="Actualizar y eliminar datos" time="6.758"/>
-  <testcase name="Eliminar Datos" classname="Actualizar y eliminar datos" time="0.661"/>
-  <system-out><![CDATA[2022-03-25 19:56:31 INFO  GetPostCustomerStep:49 {"name":"Jeannetta Schmeler","job":"Corporate Advertising Executive"}
+  <testcase name="Actualizar Datos" classname="Actualizar y eliminar datos" time="10.197"/>
+  <testcase name="Eliminar Datos" classname="Actualizar y eliminar datos" time="0.948"/>
+  <system-out><![CDATA[2022-03-25 23:11:28 INFO  PatchDeleteCustomerStep:49 {"name":"Ahmed Hammes","job":"Central Sales Designer"}
 Request method:	PATCH
 Request URI:	https://reqres.in/api/users/2
 Proxy:			<none>
@@ -17,13 +17,13 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "name": "Jeannetta Schmeler",
-    "job": "Corporate Advertising Executive"
+    "name": "Ahmed Hammes",
+    "job": "Central Sales Designer"
 }
 {
-    "name": "Jeannetta Schmeler",
-    "job": "Corporate Advertising Executive",
-    "updatedAt": "2022-03-26T00:56:36.515Z"
+    "name": "Ahmed Hammes",
+    "job": "Central Sales Designer",
+    "updatedAt": "2022-03-26T04:11:35.241Z"
 }
 Request method:	DELETE
 Request URI:	https://reqres.in/api/users/2
@@ -39,9 +39,9 @@ Multiparts:		<none>
 Body:			<none>
 
 ]]></system-out>
-  <system-err><![CDATA[1519 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/AgregarParcheEliminar.feature
-1519 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/AgregarParcheEliminar.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-1651 [Test worker] INFO  - 
+  <system-err><![CDATA[1809 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/AgregarParcheEliminar.feature
+1809 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/AgregarParcheEliminar.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+2006 [Test worker] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -50,7 +50,7 @@ Body:			<none>
 
 Actualizar Datos(actualizar-y-eliminar-datos;actualizar-datos)
 -------------------------------------------------------------------
-8169 [Test worker] INFO  - 
+11840 [Test worker] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -60,9 +60,9 @@ Actualizar Datos(actualizar-y-eliminar-datos;actualizar-datos)
 
 Actualizar Datos
 ----------------------------------------------------------------------------
-8186 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/AgregarParcheEliminar.feature
-8186 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/AgregarParcheEliminar.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-8186 [Test worker] INFO  - 
+11859 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/AgregarParcheEliminar.feature
+11859 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/AgregarParcheEliminar.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+11865 [Test worker] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -71,7 +71,7 @@ Actualizar Datos
 
 Eliminar Datos(actualizar-y-eliminar-datos;eliminar-datos)
 -------------------------------------------------------------------
-8827 [Test worker] INFO  - 
+12799 [Test worker] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |

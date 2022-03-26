@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="obtencion de datos" skipped="0" tests="2" time="5.87" timestamp="2022-03-25 07:56:07"><testcase name="Obtener datos de usuario"/><testcase name="Agregar comentarios"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="obtencion de datos" skipped="0" tests="2" time="7.13" timestamp="2022-03-25 10:52:27"><testcase name="Obtener datos de usuario"/><testcase name="Agregar comentarios"/></testsuite>
