@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="obtencion de datos" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-25T23:57:44" hostname="LAPTOP-0HI916MJ" time="6.258">
+<testsuite name="obtencion de datos" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-25T23:59:18" hostname="LAPTOP-0HI916MJ" time="6.074">
   <properties/>
-  <testcase name="Obtener datos de usuario" classname="obtencion de datos" time="5.357"/>
-  <testcase name="Agregar comentarios" classname="obtencion de datos" time="0.901"/>
+  <testcase name="Obtener datos de usuario" classname="obtencion de datos" time="5.116"/>
+  <testcase name="Agregar comentarios" classname="obtencion de datos" time="0.958"/>
   <system-out><![CDATA[Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/posts/1
 Proxy:			<none>
@@ -21,7 +21,7 @@ Body:			<none>
     "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
 }
-2022-03-25 18:57:50 INFO  GetPostCustomerStep:106 {"name":"Josphine Jast","postId":"48","email":"Josphine@outlook.com"}
+2022-03-25 18:59:24 INFO  GetPostCustomerStep:106 {"name":"Verdell Pacocha","postId":"42","email":"Verdell@outlook.com"}
 Request method:	POST
 Request URI:	https://jsonplaceholder.typicode.com/comments
 Proxy:			<none>
@@ -35,20 +35,20 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "name": "Josphine Jast",
-    "postId": "48",
-    "email": "Josphine@outlook.com"
+    "name": "Verdell Pacocha",
+    "postId": "42",
+    "email": "Verdell@outlook.com"
 }
 {
-    "name": "Josphine Jast",
-    "postId": "48",
-    "email": "Josphine@outlook.com",
+    "name": "Verdell Pacocha",
+    "postId": "42",
+    "email": "Verdell@outlook.com",
     "id": 501
 }
 ]]></system-out>
-  <system-err><![CDATA[1454 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/ObtenerAgregarDatos.feature
-1454 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/ObtenerAgregarDatos.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-1677 [Test worker] INFO  - 
+  <system-err><![CDATA[1265 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/ObtenerAgregarDatos.feature
+1265 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/ObtenerAgregarDatos.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+1405 [Test worker] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -57,7 +57,7 @@ Body:
 
 Obtener datos de usuario(obtencion-de-datos;obtener-datos-de-usuario)
 -------------------------------------------------------------------
-6664 [Test worker] INFO  - 
+6277 [Test worker] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -67,9 +67,9 @@ Obtener datos de usuario(obtencion-de-datos;obtener-datos-de-usuario)
 
 Obtener datos de usuario
 ----------------------------------------------------------------------------
-6664 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/ObtenerAgregarDatos.feature
-6680 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/ObtenerAgregarDatos.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-6680 [Test worker] INFO  - 
+6294 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/ObtenerAgregarDatos.feature
+6294 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/alvar/Desktop/RETO_SCREENPLAY_REST/src/test/resources/feature/ObtenerAgregarDatos.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+6294 [Test worker] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -78,7 +78,7 @@ Obtener datos de usuario
 
 Agregar comentarios(obtencion-de-datos;agregar-comentarios)
 -------------------------------------------------------------------
-7563 [Test worker] INFO  - 
+7242 [Test worker] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
