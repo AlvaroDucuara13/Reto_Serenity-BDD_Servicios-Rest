@@ -21,9 +21,6 @@ public class DatosModelRandom {
 
 
 
-
-
-
     public String getPostId() {
         return PostId;
     }

@@ -41,7 +41,6 @@ public class ReadFileJson {
     }
 
 
-
     //lectura del archvio Json
 
     public static String ConvertPost() throws IOException, ParseException {
