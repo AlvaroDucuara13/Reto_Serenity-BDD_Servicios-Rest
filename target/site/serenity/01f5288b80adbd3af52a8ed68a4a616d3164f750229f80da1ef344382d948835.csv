@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Actualizar y eliminar datos","Actualizar Datos","SUCCESS","2022-03-25T19:56:31.044-05:00[America/Bogota]","0.0","6.53"
+"Actualizar y eliminar datos","Eliminar Datos","SUCCESS","2022-03-25T19:56:37.595-05:00[America/Bogota]","0.0","0.64"
+"obtencion de datos","Obtener datos de usuario","SUCCESS","2022-03-25T19:56:07.394-05:00[America/Bogota]","0.0","4.94"
+"obtencion de datos","Agregar comentarios","SUCCESS","2022-03-25T19:56:12.344-05:00[America/Bogota]","0.0","0.93"
